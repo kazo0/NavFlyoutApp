@@ -8,6 +8,4 @@ namespace NavFlyoutApp.Presentation;
 public partial record NavModel(INavigator Navigator)
 {
 	public string Title { get; init; } = "Nav Title";
-
-	public async ValueTask NavToSecond() => await Navigator.NavigateViewModelAsync<SecondModel>(this);
 }

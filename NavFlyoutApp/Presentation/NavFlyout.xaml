@@ -18,13 +18,4 @@
 		<Button Content="Button 3"
 				uen:Navigation.Request="Third" />
 	</StackPanel>
-
-	<!--<Grid x:Name="MainLayout"
-		  uen:Region.Attached="True">
-		<Frame HorizontalAlignment="Stretch"
-			   VerticalAlignment="Stretch"
-			   HorizontalContentAlignment="Stretch"
-			   VerticalContentAlignment="Stretch"
-			   uen:Region.Attached="true" />
-	</Grid>-->
 </Flyout>
