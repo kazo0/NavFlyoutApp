@@ -1,0 +1,10 @@
+{
+  "background_color": "#ffffff",
+  "description": "NavFlyoutApp",
+  "display": "standalone",
+  "name": "NavFlyoutApp",
+  "short_name": "NavFlyoutApp",
+  "start_url": "/index.html",
+  "theme_color": "#ffffff",
+  "scope": "/"
+}

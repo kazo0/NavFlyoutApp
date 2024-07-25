@@ -1,0 +1,30 @@
+﻿<Flyout x:Class="NavFlyoutApp.Presentation.NavFlyout"
+		xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+		xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+		xmlns:local="using:NavFlyoutApp.Presentation"
+		xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+		xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+		Placement="Full"
+		xmlns:uen="using:Uno.Extensions.Navigation.UI"
+		mc:Ignorable="d"
+		FlyoutPresenterStyle="{StaticResource LeftDrawerFlyoutPresenterStyle}">
+
+	<StackPanel>
+		<TextBlock Text="{Binding Title}" />
+		<Button Content="Button 1"
+				uen:Navigation.Request="First" />
+		<Button Content="Button 2"
+				uen:Navigation.Request="Second" />
+		<Button Content="Button 3"
+				uen:Navigation.Request="Third" />
+	</StackPanel>
+
+	<!--<Grid x:Name="MainLayout"
+		  uen:Region.Attached="True">
+		<Frame HorizontalAlignment="Stretch"
+			   VerticalAlignment="Stretch"
+			   HorizontalContentAlignment="Stretch"
+			   VerticalContentAlignment="Stretch"
+			   uen:Region.Attached="true" />
+	</Grid>-->
+</Flyout>

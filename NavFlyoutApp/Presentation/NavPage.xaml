@@ -1,0 +1,20 @@
+﻿<Page x:Class="NavFlyoutApp.Presentation.NavPage"
+	  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	  xmlns:local="using:NavFlyoutApp.Presentation"
+	  xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	  mc:Ignorable="d"
+	  xmlns:uen="using:Uno.Extensions.Navigation.UI"
+	  Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+	<StackPanel>
+		<TextBlock Text="{Binding Title}" />
+		<Button Content="Button 1"
+				uen:Navigation.Request="Second" />
+		<Button Content="Button 2"
+				Command="{Binding NavToSecond}" />
+		<Button Content="Button 3"
+				uen:Navigation.Request="Second" />
+	</StackPanel>
+</Page>

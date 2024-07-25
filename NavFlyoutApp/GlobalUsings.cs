@@ -1,0 +1,13 @@
+﻿global using System.Collections.Immutable;
+global using Microsoft.Extensions.DependencyInjection;
+global using Microsoft.Extensions.Hosting;
+global using Microsoft.Extensions.Localization;
+global using Microsoft.Extensions.Logging;
+global using Microsoft.Extensions.Options;
+global using NavFlyoutApp.DataContracts;
+global using NavFlyoutApp.DataContracts.Serialization;
+global using NavFlyoutApp.Models;
+global using NavFlyoutApp.Presentation;
+global using NavFlyoutApp.Services.Caching;
+global using NavFlyoutApp.Services.Endpoints;
+global using ApplicationExecutionState = Windows.ApplicationModel.Activation.ApplicationExecutionState;
